@@ -1,3 +1,5 @@
+
+
 /*
  * @author Nicholas Evans & Nicholas Trembley
  */
@@ -41,5 +43,14 @@ public class Ship{
 	public String getShipName(){
 		return shipName;
 	}
-
+	
+	/*
+	 * Get's the Ship's orientation
+	 * @return 1	The Ship is horizontal
+	 * @return 2	The Ship is vertical
+	 */
+	public int getOrientation(){
+		return orientation;
+	}
+	
 }
